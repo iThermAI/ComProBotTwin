@@ -21,7 +21,7 @@ services:
   db:
     build: ./db
     volumes:
-      - <DATABASE_DIR:/data/db
+      - <DATABASE_DIR>:/data/db
     ports:
-    # Expose port 27017 to host, in order to give database access to the rotary code
+    # Expose port 27017 to the host, to give the rotary code access to the database 
       - "27017:27017"
