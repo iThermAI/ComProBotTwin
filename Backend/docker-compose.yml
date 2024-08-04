@@ -5,7 +5,7 @@ services:
     ports:
       - "5000:5000"
     volumes:
-      - /home/amiralism/ithermai/change2twin/dockerized/api:/usr/src/app
+      - <PROJECT_DIR>/api:/usr/src/app
     links:
       - db
 
@@ -14,13 +14,14 @@ services:
     ports:
       - "5001:5001"
     volumes:
-      - /home/amiralism/ithermai/change2twin/dockerized/agent:/usr/src/app
+      - <PROJECT_DIR>/agent:/usr/src/app
     links:
       - db
       
   db:
     build: ./db
     volumes:
-      - /home/amiralism/ithermai/change2twin/mongo_database:/data/db
+      - <DATABASE_DIR:/data/db
     ports:
+    # Expose port 27017 to host, in order to give database access to the rotary code
       - "27017:27017"
