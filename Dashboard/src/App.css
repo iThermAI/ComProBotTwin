@@ -1,0 +1,14 @@
+.main-content {
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  width: auto;
+  min-width: 400;
+}
+body {
+  background-color: rgb(
+    215,
+    220,
+    243
+  ); 
+}

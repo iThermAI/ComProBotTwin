@@ -1,0 +1,26 @@
+version: '3'
+services:
+  api:
+    build: ./api
+    ports:
+      - "5000:5000"
+    volumes:
+      - /home/amiralism/ithermai/change2twin/dockerized/api:/usr/src/app
+    links:
+      - db
+
+  agent:
+    build: ./agent
+    ports:
+      - "5001:5001"
+    volumes:
+      - /home/amiralism/ithermai/change2twin/dockerized/agent:/usr/src/app
+    links:
+      - db
+      
+  db:
+    build: ./db
+    volumes:
+      - /home/amiralism/ithermai/change2twin/mongo_database:/data/db
+    ports:
+      - "27017:27017"

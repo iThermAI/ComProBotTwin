@@ -1,0 +1,33 @@
+.react-calendar {
+  width: 80%;
+  max-width: 1300px; 
+  background: white;
+  border: 1px solid #a0a096;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+}
+.react-calendar__month-view__days__day {
+  padding: 20px;
+}
+.reminder {
+  background-color: #79f04d;
+  border-radius: 4px;
+  padding: 4px 8px; 
+  margin: 0 0; 
+  font-size: 0.85rem; 
+  text-align: center;
+  display: block; 
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  max-width: 250px; 
+}
+.calendar {
+  border: white !important;
+}
+.react-calendar {
+  width: 70%;
+  height: 70vh;
+  margin-left: 18vw;
+  margin-top: 10px;
+}

@@ -1,0 +1,66 @@
+.settings-page label {
+  display: block;
+  margin: 2.5%;
+  /* margin-bottom: 70px; */
+}
+@media (min-width: 780px) {
+  .settings-page label {
+    display: block;
+    margin: 2.8%;
+    /* margin-bottom: 70px; */
+  }
+}
+.settings-page {
+  /* margin-bottom: 40px; */
+  font-family: "Open Sans", sans-serif;
+  font-size: large;
+  margin-left: 60px;
+}
+.settings-page input[type="email"],
+.settings-page input[type="password"],
+.settings-page select {
+}
+.buttons {
+  margin: 20px;
+  /* margin-bottom: 30px; */
+}
+.settings-page .buttons {
+  text-align: right;
+  /* margin-top: 80px; */
+}
+
+.save-button {
+  background-color: green;
+  border-radius: 10px;
+  /* width: 180px;
+  height: 40px; */
+  /* font-size: large; */
+}
+
+.cancel-button {
+  background-color: rgb(230, 69, 69);
+  margin-left: 10px;
+  border-radius: 10px;
+  /* height: 40px;
+  width: 90px; */
+  /* font-size: large; */
+}
+#customize {
+  color: #537587;
+  /* margin-bottom: 110px; */
+  /* font-size: xx-large; */
+}
+#blank-box {
+  margin-left: 10px;
+  width: auto;
+  /* margin-bottom: 20px;
+  width: 350px;
+  height: 20px; */
+  border-radius: 4px;
+}
+#select-box,
+#check-box {
+  margin-left: 10px;
+  /* margin-bottom: 20px; */
+  border-radius: 4px;
+}

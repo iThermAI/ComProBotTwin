@@ -1,0 +1,15 @@
+#main-image {
+  /*height: 1040px;*/
+  border-radius: 12px;
+  /* aspect-ratio: 22/9; */
+  margin: 1px;
+  height: calc(100vh - 160px);
+  width: 95vw;
+  min-height: 300px;
+  padding: 10px;
+}
+.home-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
