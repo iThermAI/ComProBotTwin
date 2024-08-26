@@ -1,1 +1,1 @@
-FROM focker.ir/mongo:4.4.1
+FROM mongo:4.4.1
